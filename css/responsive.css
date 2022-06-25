@@ -1,0 +1,50 @@
+@media screen and (max-width:1000px) {
+    body{
+        background-color: red;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        height: 5vh;
+    }
+    .logo{
+        justify-content: center;
+        margin: 10px 0;
+    }
+    nav ul{
+        justify-content: center;   
+    }
+    /* nav ul li{
+        padding: 0 0 0 15px;
+    } */
+    .search{
+        justify-content: center;
+        margin: 12px;
+    }
+    .search input{
+        height: 3vh;
+        width: 50vw
+    }
+    .btn{
+        padding: 2px 5px;
+        height: 24px;
+    }
+    .slider{
+        margin: 0;
+        height: 29vh;
+    }
+    .my-2{
+        font-size: 22px;
+        margin: 15px 0;
+    }
+    .card{
+        margin: 15px;
+    }
+    .card-items{
+        width: 100px;
+    }
+    footer{
+        height: 12vh;
+    }
+}

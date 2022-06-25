@@ -1,0 +1,24 @@
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+} 
+.btn{
+    padding: 4px 7px;
+    background-color:rgb(176, 190, 195);
+    color:rgb(76, 56, 56);
+    font-family: 'Tiro Tamil', serif;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    font-weight: bold;
+}
+.my-2{
+    margin: 18px 0;
+    padding: 8px 20px;
+}
+.text-center{
+    text-align: center;
+}
