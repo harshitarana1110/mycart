@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Pangolin&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+        /* height: 6vh; */
+        width: 100vw;
+        background-color:blue;
+        /*border: 2px solid darkblue;*/
+        font-family: 'Tiro Tamil', serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    font-size: 50px;
+    padding: 0 23px 0 40px;
+    color: rgb(246, 240, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Pangolin', cursive;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+nav ul li a{
+    color: rgb(197, 235, 247);
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: darkblue;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 33vw;
+    height: 24px;
+    border-radius: 3px;
+    margin: 0 10px 0 30px;
+    padding:0 12px;
+}
+.search button{
+    font-family: 'Tiro Tamil', serif;
+}
+.container{
+    min-height: calc(100vh - 10vh - 6vh);
+
+}
+.slider{
+    margin: auto; 
+    height: 300px;
+    /* width: min(100% - 2rem, 500px);  */
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    margin: 0 auto;
+    width: min(100% - 2rem, 1000px);
+    /* height: 70vw; */
+    display: flex;
+}
+.card{
+    margin: 25px 120px;
+    background-color: rgb(226, 226, 226);
+    font-family: 'Tiro Tamil', serif;
+}
+.all-card-items{
+    display: flex;
+    overflow: scroll;
+} 
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.lines{
+    padding: 12px 0;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.symbols{
+    margin: 15px;
+    text-align: center;
+}
+footer{
+    /* height: 15vh; */
+    padding: 0.5em 1em;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Tiro Tamil', serif;
+}
